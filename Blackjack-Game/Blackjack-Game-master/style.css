@@ -1,0 +1,61 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+body {
+    text-align: center;
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    /* background-position: center; */
+    background-repeat: repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+}
+
+#title-id {
+    font-style: italic;
+}
+
+button {
+    background-color: goldenrod;
+    color: rgb(0, 80, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    /* padding: 5px 50px 5px 50px; */
+    width: 150px;
+    height: 30px;
+    max-height: 40px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+p {
+    /* padding: 5px 50px 5px 50px; */
+    width: 300px;
+    height: 30px;
+    max-height: 40px;
+    display: inline-block;
+}
+
+#player-id {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#resetBt-id {
+    padding-right: 20px;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
